@@ -17,7 +17,7 @@ export class OrderTableComponent {
         console.log(this.orders);
         
     }
-   private getOrders(): Order[] {
+   public getOrders(): Order[] {
        
        
         return this.repository.getOrders()
